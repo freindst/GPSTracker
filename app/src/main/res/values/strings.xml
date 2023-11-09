@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GPSTracker</string>
+    <string name="author">Blade</string>
+    <string name="defaultTextViewText">Get GPS Coordinator</string>
+    <string name="defaultGPSText">Connect to GPS API</string>
+    <string name="gps_button_text"><![CDATA[Click Me<_>]]></string>
+</resources>

@@ -34,7 +34,7 @@ public class CustomAdapter extends ArrayAdapter<Message>  {
             LayoutInflater inflater = LayoutInflater.from(getContext());
             convertView = inflater.inflate(R.layout.row_item, parent, false);
             viewHolder.txtMessage = (TextView) convertView.findViewById(R.id.row_msg);
-            viewHolder.textTime = (TextView) convertView.findViewById(R.id.gps_textView);
+            viewHolder.textTime = (TextView) convertView.findViewById(R.id.row_time);
             result = convertView;
             convertView.setTag(viewHolder);
         } else {

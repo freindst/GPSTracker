@@ -28,7 +28,11 @@ class MainActivity : AppCompatActivity() {
 
         var button : Button = findViewById(R.id.gps_button)
         button.setOnClickListener{
+            startActivity(Intent(this, SecondScreenActivity::class.java)).apply {
+
+            }
             var textView : TextView = findViewById(R.id.gps_x_textView)
+            /*
             val key = database.child("message").push().key
             if (key != null){
                 writeNewMessage(key, "new message", Date().toString())
@@ -50,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                     TODO("Not yet implemented")
                 }
             })
-
+            */
 
             /*val myRef = database.getReference("message")
             myRef.setValue("Hello")
